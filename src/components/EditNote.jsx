@@ -48,7 +48,7 @@ const EditNote = () => {
   };
 
   return (
-    <div className="bg-white p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
+    <div className="bg-red-300 p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2 mt-7">
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
